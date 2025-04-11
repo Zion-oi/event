@@ -12,17 +12,17 @@
           <div class="role-card">
             <img src="2.1.png" alt="Student">
             <h3>Student</h3>
-            <button onclick="location.href='signup.html'">Continue</button>
+            <button onclick="location.href='signup.php'">Continue</button>
           </div>
           <div class="role-card">
             <img src="3.1.png" alt="Faculty">
             <h3>Faculty</h3>
-            <button onclick="location.href='signup.html'">Continue</button>
+            <button onclick="location.href='signup.php'">Continue</button>
           </div>
           <div class="role-card">
             <img src="1.1.png" alt="Event Organizer">
             <h3>Event Organizer</h3>
-            <button onclick="location.href='organizer_signup.html'">Continue</button>
+            <button onclick="location.href='signup.php'">Continue</button>
           </div>
         </div>
       </div>

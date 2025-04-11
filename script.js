@@ -119,3 +119,11 @@ function openEventForm() {
 function closeEventForm() {
   document.getElementById("popupForm").style.display = "none";
 }
+
+// explore nav 2
+
+const toggle = document.getElementById('menuToggle');
+const links = document.getElementById('navLinks');
+toggle.onclick = () => {
+  links.classList.toggle('active');
+};

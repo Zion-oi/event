@@ -58,6 +58,9 @@ body {
   padding: 10px 20px;
   height: 90px;
   box-shadow: 20px 200px   rgb(0, 0, 0) ;
+ 
+ 
+
 }
 
 .nav2-container {
@@ -290,6 +293,37 @@ display:flex;
   transition: transform 0.3s;
 }
 
+
+/* explore page */
+.event-container1 {
+  display: flex;
+  flex-wrap: wrap;
+  
+  justify-content: center;
+  gap: 120px;
+  padding:40px;
+
+
+}
+
+.event-box1 {
+  background: #030330;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  width: 500px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.event-box1:hover {
+  transform: scale(1.05);
+}
+
+.event-box1 img {
+  width: 100%;
+  border-radius: 10px;
+}
 
 
 .event-box:hover {
@@ -800,4 +834,17 @@ p a:hover {
 
 
 
+.logout-btn {
+  padding: 8px 16px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
 
+.logout-btn:hover {
+  background-color: #cc0000;
+}
